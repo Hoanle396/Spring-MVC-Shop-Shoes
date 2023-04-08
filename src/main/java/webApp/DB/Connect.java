@@ -12,7 +12,7 @@ public class Connect {
 	public Connect() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			this.con = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaweb", "root", "");
+			this.con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java-web", "root", "");
 			this.stmt = con.createStatement();
 		} catch (Exception e) {
 			System.out.println(e);
