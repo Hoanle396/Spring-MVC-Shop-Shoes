@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			<div class="col-lg-12">
-				<form id="contact" action="${request.contextPath}/webApp/feedback"
+				<form id="contact" action="${request.contextPath}/feedback"
 					method="POST">
 					<div class="row">
 						<div class="col-lg-12">

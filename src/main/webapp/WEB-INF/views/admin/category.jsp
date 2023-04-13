@@ -19,7 +19,7 @@
 									<h3 class="card-title">New category</h3>
 								</div>
 								<div class="card-body">
-									<form action="${request.contextPath}/webApp/admin/category" method="POST">
+									<form action="${request.contextPath}/admin/category" method="POST">
 										<div class="form-group row">
 											<label class="col-sm-3 col-form-label"></label>
 											<div class="col-sm-9">
@@ -85,8 +85,8 @@
 												<td>${o.description }</td>
 												<td>${o.updateAt }</td>
 												<td>
-													<form method="POST" action="${request.contextPath}/webApp/admin/category/${o.id}">
-														<!-- <a href="${request.contextPath}/webApp/admin/category/${o.id}"
+													<form method="POST" action="${request.contextPath}/admin/category/${o.id}">
+														<!-- <a href="${request.contextPath}/admin/category/${o.id}"
 											class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>| -->
 														<button type="submit"
 															onclick="return confirm('Are You Sure You Want To Delete? Couldn't undo this action')"

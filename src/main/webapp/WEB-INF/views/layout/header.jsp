@@ -16,14 +16,14 @@
 				<title>Liberty</title>
 
 				<!-- Bootstrap core CSS -->
-				<link href="${request.contextPath }/webApp/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+				<link href="${request.contextPath }/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
 				<!-- Additional CSS Files -->
-				<link rel="stylesheet" href="${request.contextPath }/webApp/assets/css/fontawesome.css">
-				<link rel="stylesheet" href="${request.contextPath }/webApp/assets/css/templatemo-liberty-market.css">
-				<link rel="stylesheet" href="${request.contextPath }/webApp/assets/css/owl.css">
-				<link rel="stylesheet" href="${request.contextPath }/webApp/assets/css/animate.css">
+				<link rel="stylesheet" href="${request.contextPath }/assets/css/fontawesome.css">
+				<link rel="stylesheet" href="${request.contextPath }/assets/css/templatemo-liberty-market.css">
+				<link rel="stylesheet" href="${request.contextPath }/assets/css/owl.css">
+				<link rel="stylesheet" href="${request.contextPath }/assets/css/animate.css">
 				<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 				<!--
 
@@ -59,16 +59,16 @@ https://templatemo.com/tm-577-liberty-market
 									<!-- ***** Logo End ***** -->
 									<!-- ***** Menu Start ***** -->
 									<ul class="nav">
-										<li><a href="${request.contextPath}/webApp/home">Home</a></li>
-										<li><a href="${request.contextPath}/webApp/product">Explore</a></li>
-										<li><a href="${request.contextPath}/webApp/about">About</a></li>
+										<li><a href="${request.contextPath}/home">Home</a></li>
+										<li><a href="${request.contextPath}/product">Explore</a></li>
+										<li><a href="${request.contextPath}/about">About</a></li>
 										<c:if test="${sessionScope.user!=null }">
-											<li><a href="${request.contextPath}/webApp/product/mypage" class="active">${sessionScope.fullname
+											<li><a href="${request.contextPath}/product/mypage" class="active">${sessionScope.fullname
 													}</a></li>
-											<li><a href="${request.contextPath}/webApp/logout">Logout</a></li>
+											<li><a href="${request.contextPath}/logout">Logout</a></li>
 										</c:if>
 										<c:if test="${sessionScope.user==null }">
-											<li><a href="${request.contextPath}/webApp/login">Login</a></li>
+											<li><a href="${request.contextPath}/login">Login</a></li>
 										</c:if>
 									</ul>
 									<a class='menu-trigger'> <span>Menu</span>

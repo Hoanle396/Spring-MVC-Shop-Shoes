@@ -21,7 +21,7 @@
 							<span>Home > <a href="#">Item Details</a></span>
 							<div class="buttons">
 								<div class="main-button">
-									<a href="${request.contextPath }/webApp/product">Explore Our
+									<a href="${request.contextPath }/product">Explore Our
 										Items</a>
 								</div>
 							</div>
@@ -43,13 +43,13 @@
 						</div>
 						<div class="col-lg-7">
 							<div class="left-image">
-								<img src="${request.contextPath }/webApp${product.images}" alt=""
+								<img src="${request.contextPath }${product.images}" alt=""
 									style="border-radius: 20px; height: 600px; object-fit: contain;">
 							</div>
 						</div>
 						<div class="col-lg-5 align-self-center">
 							<h4>${product.name}</h4>
-							<span class="author"> <img src="${request.contextPath }/webApp/assets/images/author.jpg" alt=""
+							<span class="author"> <img src="${request.contextPath }/assets/images/author.jpg" alt=""
 									style="max-width: 50px; border-radius: 50%;">
 								<h6>
 									${product.createBy}<br> <a href="#">@${product.createBy}</a>
@@ -85,7 +85,7 @@
 									</c:if>
 								</div>
 							</div>
-							<button onclick="location.href='${request.contextPath }/webApp/product/cart/${product.id}'"
+							<button onclick="location.href='${request.contextPath }/product/cart/${product.id}'"
 								id="form-submit" class="main-button mt-3">Add to cart</button>
 						</div>
 					</div>

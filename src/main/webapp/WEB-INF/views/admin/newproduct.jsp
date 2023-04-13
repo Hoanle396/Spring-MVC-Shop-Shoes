@@ -19,7 +19,7 @@
 									<h3 class="card-title">New product</h3>
 								</div>
 								<div class="card-body">
-									<form action="${request.contextPath}/webApp/admin/product" method="POST"
+									<form action="${request.contextPath}/admin/product" method="POST"
 										enctype="multipart/form-data">
 										<div class="form-group row">
 											<label class="col-sm-3 col-form-label"></label>

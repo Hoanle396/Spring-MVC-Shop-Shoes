@@ -9,7 +9,7 @@
 								<h1 class="h3 mb-2 text-gray-800">Products</h1>
 							</div>
 							<div class="col-2 ">
-								<a href="${request.contextPath}/webApp/admin/create/product" class="btn btn-primary"> Add new</a>
+								<a href="${request.contextPath}/admin/create/product" class="btn btn-primary"> Add new</a>
 							</div>
 						</div>
 					</div>
@@ -47,8 +47,8 @@
 												<td>${o.price}${o.currency }</td>
 												<td>${o.createBy }</td>
 												<td>
-													<form method="POST" action="${request.contextPath}/webApp/admin/product/${o.id}">
-														<!-- <a href="${request.contextPath}/webApp/admin/category/${o.id}"
+													<form method="POST" action="${request.contextPath}/admin/product/${o.id}">
+														<!-- <a href="${request.contextPath}/admin/category/${o.id}"
 											class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>| -->
 														<button type="submit"
 															onclick="return confirm('Are You Sure You Want To Delete? Couldn't undo this action')"
@@ -73,11 +73,11 @@
 										<c:forEach begin="1" end="${data.count/8+1 }" var="i">
 											<c:if test="${i==data.page }">
 												<li class="page-item active"><a class="page-link"
-														href="${request.contextPath}/webApp/admin/product?page=${i}">${i}</a></li>
+														href="${request.contextPath}/admin/product?page=${i}">${i}</a></li>
 											</c:if>
 											<c:if test="${i!=data.page }">
 												<li class="page-item"><a class="page-link"
-														href="${request.contextPath}/webApp/admin/product?page=${i}">${i}</a></li>
+														href="${request.contextPath}/admin/product?page=${i}">${i}</a></li>
 											</c:if>
 
 										</c:forEach>

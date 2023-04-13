@@ -43,7 +43,7 @@
 					<td data-th="Product">
 						<div class="row">
 							<div class="col-sm-2 hidden-xs">
-								<img src="${request.contextPath }/webApp${o.images}" alt="..."
+								<img src="${request.contextPath }${o.images}" alt="..."
 									class="img-responsive" />
 							</div>
 							<div class="col-sm-10">
@@ -64,14 +64,14 @@
 		</tbody>
 		<tfoot>
 			<tr>
-				<td><a href="${request.contextPath }/webApp/product"
+				<td><a href="${request.contextPath }/product"
 					class="btn btn-warning"><i class="fa fa-angle-left"></i>
 						Continue Shopping</a></td>
 				<td colspan="1" class="hidden-xs"></td>
 				<td class="hidden-xs text-center"><strong>Total
 						${cost}</strong></td>
 				<td><a
-					href="${request.contextPath }/webApp/product/checkout?cost=${cost}"
+					href="${request.contextPath }/product/checkout?cost=${cost}"
 					class="btn btn-success d-flex align-items-center">Checkout&nbsp;
 						<i class="fa fa-angle-right"></i>
 				</a></td>

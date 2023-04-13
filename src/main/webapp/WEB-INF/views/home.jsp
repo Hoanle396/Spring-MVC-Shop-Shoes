@@ -99,7 +99,7 @@
 							<div class="owl-collection owl-carousel">
 								<c:forEach items="${product.list }" var="p">
 									<div class="item">
-										<img src="${request.contextPath }/webApp${p.images}" alt=""
+										<img src="${request.contextPath }${p.images}" alt=""
 											style="height: 400px; object-fit: cover;">
 										<div class="down-content">
 											<h4>${p.name }</h4>
@@ -147,7 +147,7 @@
 						<div class="col-lg-6 currently-market-item all ${p.categoryId }">
 							<div class="item">
 								<div class="left-image">
-									<img src="${request.contextPath }/webApp${p.images}" alt=""
+									<img src="${request.contextPath }${p.images}" alt=""
 										style="border-radius: 20px; min-width: 195px; width: 200px; object-fit: cover;">
 								</div>
 								<div class="right-content">

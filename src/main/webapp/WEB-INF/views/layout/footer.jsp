@@ -15,15 +15,15 @@
 
 		<!-- Scripts -->
 		<!-- Bootstrap core JavaScript -->
-		<script src="${request.contextPath }/webApp/vendor/jquery/jquery.min.js"></script>
-		<script src="${request.contextPath }/webApp/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="${request.contextPath }/vendor/jquery/jquery.min.js"></script>
+		<script src="${request.contextPath }/vendor/bootstrap/js/bootstrap.min.js"></script>
 
-		<script src="${request.contextPath }/webApp/assets/js/isotope.min.js"></script>
-		<script src="${request.contextPath }/webApp/assets/js/owl-carousel.js"></script>
+		<script src="${request.contextPath }/assets/js/isotope.min.js"></script>
+		<script src="${request.contextPath }/assets/js/owl-carousel.js"></script>
 
-		<script src="${request.contextPath }/webApp/assets/js/tabs.js"></script>
-		<script src="${request.contextPath }/webApp/assets/js/popup.js"></script>
-		<script src="${request.contextPath }/webApp/assets/js/custom.js"></script>
+		<script src="${request.contextPath }/assets/js/tabs.js"></script>
+		<script src="${request.contextPath }/assets/js/popup.js"></script>
+		<script src="${request.contextPath }/assets/js/custom.js"></script>
 		</body>
 
 		</html>

@@ -56,11 +56,11 @@
 										<c:forEach begin="1" end="${data.count/8+1}" var="i">
 											<c:if test="${i==data.page }">
 												<li class="page-item active"><a class="page-link"
-														href="${request.contextPath}/webApp/admin/users?page=${i}">${i}</a></li>
+														href="${request.contextPath}/admin/users?page=${i}">${i}</a></li>
 											</c:if>
 											<c:if test="${i!=data.page }">
 												<li class="page-item"><a class="page-link"
-														href="${request.contextPath}/webApp/admin/users?page=${i}">${i}</a></li>
+														href="${request.contextPath}/admin/users?page=${i}">${i}</a></li>
 											</c:if>
 
 										</c:forEach>

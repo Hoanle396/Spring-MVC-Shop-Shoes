@@ -30,7 +30,7 @@
 									<c:forEach items="${slider.list }" var="s">
 										<div class="item">
 											<div class="thumb">
-												<img src="${request.contextPath }/webApp${s.images}" alt=""
+												<img src="${request.contextPath }${s.images}" alt=""
 													style="border-radius: 20px; with: 100%; height: 450px; object-fit: cover;">
 												<div class="hover-effect">
 													<div class="content">
@@ -99,7 +99,7 @@
 										<div class="col-lg-12">
 											<span class="author"> <img src="assets/images/author.jpg" alt=""
 													style="max-width: 50px; max-height: 50px; border-radius: 50%;">
-											</span> <img src="${request.contextPath }/webApp${p.images}" alt=""
+											</span> <img src="${request.contextPath }${p.images}" alt=""
 												style="border-radius: 20px; width: 100%; height: 250px; object-fit: cover;">
 											<h4>${p.name }</h4>
 										</div>
@@ -128,11 +128,11 @@
 										<c:forEach begin="1" end="${data.count/8+1 }" var="i">
 											<c:if test="${i==data.page }">
 												<li class="page-item active"><a class="page-link"
-														href="${request.contextPath}/webApp/product?page=${i}">${i}</a></li>
+														href="${request.contextPath}/product?page=${i}">${i}</a></li>
 											</c:if>
 											<c:if test="${i!=data.page }">
 												<li class="page-item"><a class="page-link"
-														href="${request.contextPath}/webApp/product?page=${i}">${i}</a></li>
+														href="${request.contextPath}/product?page=${i}">${i}</a></li>
 											</c:if>
 
 										</c:forEach>
