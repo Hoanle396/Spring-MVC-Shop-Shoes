@@ -15,14 +15,14 @@
 				<title>H-Shop Admin</title>
 
 				<!-- Custom fonts for this template-->
-				<link href="${request.contextPath}/webApp/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
+				<link href="${request.contextPath}/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
 					type="text/css">
 				<link
 					href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
 					rel="stylesheet">
 
 				<!-- Custom styles for this template-->
-				<link href="${request.contextPath}/webApp/admin/css/sb-admin-2.min.css" rel="stylesheet">
+				<link href="${request.contextPath}/admin/css/sb-admin-2.min.css" rel="stylesheet">
 
 			</head>
 
@@ -35,7 +35,7 @@
 					<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 						<!-- Sidebar - Brand -->
-						<a class="sidebar-brand d-flex align-items-center justify-content-center" href="${request.contextPath}/webApp/admin">
+						<a class="sidebar-brand d-flex align-items-center justify-content-center" href="${request.contextPath}/admin">
 							<div class="sidebar-brand-icon rotate-n-15">
 								<i class="fas fa-laugh-wink"></i>
 							</div>
@@ -48,7 +48,7 @@
 						<hr class="sidebar-divider my-0">
 
 						<!-- Nav Item - Dashboard -->
-						<li class="nav-item active"><a class="nav-link" href="${request.contextPath}/webApp/admin"> <i
+						<li class="nav-item active"><a class="nav-link" href="${request.contextPath}/admin"> <i
 									class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span></a>
 						</li>
 
@@ -66,8 +66,8 @@
 							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 								<div class="bg-white py-2 collapse-inner rounded">
 									<h6 class="collapse-header">Product management:</h6>
-									<a class="collapse-item" href="${request.contextPath}/webApp/admin/category">Category</a>
-									<a class="collapse-item" href="${request.contextPath}/webApp/admin/product">Product</a>
+									<a class="collapse-item" href="${request.contextPath}/admin/category">Category</a>
+									<a class="collapse-item" href="${request.contextPath}/admin/product">Product</a>
 								</div>
 							</div>
 						</li>
@@ -81,8 +81,8 @@
 								data-parent="#accordionSidebar">
 								<div class="bg-white py-2 collapse-inner rounded">
 									<h6 class="collapse-header">Orders:</h6>
-									 <a class="collapse-item" href="${request.contextPath}/webApp/admin/orders">Orders</a> <a
-										class="collapse-item" href="${request.contextPath}/webApp/admin/other">Other</a>
+									 <a class="collapse-item" href="${request.contextPath}/admin/orders">Orders</a> <a
+										class="collapse-item" href="${request.contextPath}/admin/other">Other</a>
 								</div>
 							</div>
 						</li>
@@ -101,15 +101,15 @@
 							<div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
 								<div class="bg-white py-2 collapse-inner rounded">
 									<h6 class="collapse-header">Contact:</h6>
-									<a class="collapse-item" href="${request.contextPath}/webApp/admin/feedback">Feedback</a>
+									<a class="collapse-item" href="${request.contextPath}/admin/feedback">Feedback</a>
 									<div class="collapse-divider"></div>
 									<h6 class="collapse-header">Admin:</h6>
-									<a class="collapse-item" href="${request.contextPath}/webApp/admin/users">Users</a>
+									<a class="collapse-item" href="${request.contextPath}/admin/users">Users</a>
 								</div>
 							</div>
 						</li>
 
-						<li class="nav-item"><a class="nav-link" href="${request.contextPath}/webApp/admin/settings"> <i
+						<li class="nav-item"><a class="nav-link" href="${request.contextPath}/admin/settings"> <i
 									class="fas fa-fw fa-cog"></i> <span>Settings</span>
 							</a></li>
 						<!-- Divider -->
@@ -148,7 +148,7 @@
 											role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span
 												class="mr-2 d-none d-lg-inline text-gray-600 small">${sessionScope.fullname }</span>
 											<img class="img-profile rounded-circle"
-												src="${request.contextPath}/webApp/admin/img/undraw_profile.svg">
+												src="${request.contextPath}/admin/img/undraw_profile.svg">
 										</a> <!-- Dropdown - User Information -->
 										<div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
 											aria-labelledby="userDropdown">
